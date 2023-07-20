@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    background-color: aqua;
+    padding: 20px;
+   
+
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.container2{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid red;
+}
+
+/* Media Query Responsive */
+
+@media screen and (max-width:576px){
+    .container{
+        flex-direction: column-reverse;
+    }
+}
