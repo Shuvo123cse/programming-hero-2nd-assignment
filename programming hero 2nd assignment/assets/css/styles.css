@@ -407,8 +407,22 @@ ul{
         margin-top: 30px;
     }
 
+    .play-instant{
+        flex-direction: column;
+        text-align: center;
+    }
+
     .footer{
         width: 300%;
+    }
+
+    .extra-img{
+        margin-top: 0px;
+        margin-left:380px;
+    }
+
+    .play-instant-left-title{
+        text-align: center;
     }
 
 
